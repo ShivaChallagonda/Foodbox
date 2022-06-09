@@ -1,0 +1,53 @@
+<div class="page-wrapper">
+  <!-- MENU SIDEBAR-->
+  <aside class="menu-sidebar d-none d-lg-block">
+    <div class="logo">
+      <a routerLink="/products">
+        <img src="assets/logo.png" alt="food box" class="img-responsive" />
+      </a>
+    </div>
+
+    <app-product-category-menu></app-product-category-menu>
+  </aside>
+  <!-- END MENU SIDEBAR-->
+
+  <div class="page-container">
+    <!-- HEADER DESKTOP-->
+    <header class="header-desktop">
+      <div class="section-content section-content-p30">
+        <div class="container-fluid">
+          <div class="header-wrap">
+            <app-search></app-search>
+
+            <app-cart-status></app-cart-status>
+
+            <app-login-status></app-login-status>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER DESKTOP-->
+
+    <!-- MAIN CONTENT-->
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<!-- ENDS PAGE CONTAINER -->
+
+<!-- FOOTER -->
+<footer class="pb-2 text-muted text-center text-small footer">
+  <p class="mb-1">© 2021-2022 FoodBox</p>
+  <ul class="list-inline">
+    <li class="list-inline-item footer">
+      <a href="#" style="text-decoration: none; color: blue; font-size: medium"
+        >Privacy Policy</a
+      >
+    </li>
+    <li class="list-inline-item">
+      <a href="#" style="text-decoration: none; color: blue; font-size: medium"
+        >Terms and Conditions
+      </a>
+    </li>
+  </ul>
+</footer>

@@ -1,0 +1,11 @@
+com\simplilearn\foodbox\dao\ProductRepository.class
+com\simplilearn\foodbox\entity\Cuisine.class
+com\simplilearn\foodbox\config\MyDataRestConfig.class
+com\simplilearn\foodbox\entity\Product.class
+com\simplilearn\foodbox\controller\ProductController.class
+com\simplilearn\foodbox\entity\User.class
+com\simplilearn\foodbox\dao\UserRepository.class
+com\simplilearn\foodbox\FoodboxApplication.class
+com\simplilearn\foodbox\dao\CuisineRepository.class
+com\simplilearn\foodbox\controller\UserController.class
+com\simplilearn\foodbox\entity\Address.class
